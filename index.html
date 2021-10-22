@@ -11,7 +11,7 @@
   <title>Lucas Ribeiro - DoWhile</title>
 </head>
 <body>
-  <main>
+  <main class="card">
     <div class="container">
       <div class="avatar">
         <span>
@@ -30,6 +30,16 @@
       </ul>
     </div>
   </main>
+  <script src="./script/vanilla-tilt.js"></script>
   <script src="./script/script.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".card"), {
+      max: 25,
+      speed: 400
+    });
+    
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll(".card"));
+  </script>
 </body>
 </html>

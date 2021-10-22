@@ -81,3 +81,13 @@ ul {
   padding: 0;
 }
 
+@media (min-width: 800px){
+  main {
+    height: 600px;
+  }
+
+  .avatar {
+    margin-top: 5.8rem;
+  }
+}
+
